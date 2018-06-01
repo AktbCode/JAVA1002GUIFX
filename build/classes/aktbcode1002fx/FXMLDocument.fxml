@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1006.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aktbcode1002fx.FXMLDocumentController">
+   <children>
+      <Pane layoutX="732.0" prefHeight="640.0" prefWidth="274.0" style="-fx-background-color: #003399;">
+         <children>
+            <ImageView fitHeight="45.0" fitWidth="193.0" layoutX="60.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="44.0" prefHeight="45.0" prefWidth="266.0" text="أكتب كود لعلوم الحاسب الآلى" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="16.0" />
+               </font>
+            </Label>
+            <JFXButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="95.0" prefHeight="32.0" prefWidth="266.0" style="-fx-background-color: #002266;" text="          الصفحة الرئيسية" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" layoutX="225.0" layoutY="127.0" size="18" />
+            <JFXButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="144.0" prefHeight="32.0" prefWidth="266.0" style="-fx-background-color: #002266;" text="          لوحة التحكم للصفحة" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" layoutX="225.0" layoutY="176.0" size="18" />
+            <JFXButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="193.0" prefHeight="32.0" prefWidth="266.0" style="-fx-background-color: #002266;" text="          تعديل بيانات المستخدم" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" layoutX="225.0" layoutY="225.0" size="18" />
+            <JFXButton alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="243.0" prefHeight="32.0" prefWidth="266.0" style="-fx-background-color: #002266;" text="          تعديل البيانات الشخصية" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <MaterialDesignIconView fill="WHITE" layoutX="225.0" layoutY="275.0" size="18" />
+            <Separator layoutX="26.0" layoutY="307.0" opacity="0.3" prefHeight="5.0" prefWidth="223.0" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="4.0" layoutY="334.0" prefHeight="45.0" prefWidth="266.0" style="-fx-background-color: #003cb3;" text="          أضافة المقالات" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="237.0" layoutY="367.0" size="18" />
+            <MaterialDesignIconView glyphName="CHEVRON_LEFT" layoutX="23.0" layoutY="368.0" size="20" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="2.0" layoutY="381.0" prefHeight="45.0" prefWidth="266.0" style="-fx-background-color: #003cb3;" text="          أضافة التصنيفات" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="235.0" layoutY="414.0" size="18" />
+            <MaterialDesignIconView glyphName="CHEVRON_LEFT" layoutX="21.0" layoutY="415.0" size="20" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="2.0" layoutY="428.0" prefHeight="45.0" prefWidth="266.0" style="-fx-background-color: #003cb3;" text="          أضافة الصفحات الثابتة" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="235.0" layoutY="461.0" size="18" />
+            <MaterialDesignIconView glyphName="CHEVRON_LEFT" layoutX="21.0" layoutY="462.0" size="20" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="1.0" layoutY="475.0" prefHeight="45.0" prefWidth="266.0" style="-fx-background-color: #003cb3;" text="          أضافة المواضيع الحصرية" textFill="WHITE">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <MaterialDesignIconView fill="WHITE" glyphName="LIBRARY_PLUS" layoutX="234.0" layoutY="508.0" size="18" />
+            <MaterialDesignIconView glyphName="CHEVRON_LEFT" layoutX="20.0" layoutY="509.0" size="20" />
+         </children>
+      </Pane>
+      <Pane layoutX="-2.0" layoutY="72.0" prefHeight="89.0" prefWidth="734.0" style="-fx-background-color: #DDD;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="53.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Untitled.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="211.0" layoutY="53.0" prefHeight="44.0" prefWidth="175.0" text="www.aktbcode.com" textFill="#2f08f5">
+               <font>
+                  <Font name="Kill your darlings AC" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="490.0" layoutY="226.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="تحديث بيانات الأعضاء">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/id-card.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="281.0" layoutY="226.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="تغير كلمة المرور">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/password.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="73.0" layoutY="225.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="أرشيف الرسائل">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/message.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="489.0" layoutY="334.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="الخدمات والمنتجات">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/product.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="280.0" layoutY="334.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="أضة رصيد للحساب">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/add.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="72.0" layoutY="333.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="أضافة تقرير جديد">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/add.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="490.0" layoutY="442.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="أضافة موضوع جديد">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/add.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="281.0" layoutY="442.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="أضافة صفحة ثابتة">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/add.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="73.0" layoutY="441.0" prefHeight="99.0" prefWidth="200.0" style="-fx-background-color: #e6eeff; -fx-background-radius: 20px;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="34.0" prefWidth="200.0" text="تعديل بياناتك">
+               <font>
+                  <Font name="Droid Arabic Kufi Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView layoutX="74.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/edit.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="CloseBtn" fitHeight="34.0" fitWidth="36.0" layoutX="12.0" layoutY="11.0" onMousePressed="#handleCloseButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/close.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
